@@ -56,7 +56,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'simple_skeleton.wsgi.application'
 
 
-
 DATABASES = {
     'default': dj_database_url.config(
         default = config('DATABASE_URL')
@@ -65,9 +64,9 @@ DATABASES = {
 
 
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
